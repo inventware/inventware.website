@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Inventware.CrossCutting.Infra.IoC.Core2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\INVENTWARE.ApplicationStructure.Core\IAS.Data.Core.2.1\IAS.Data.Core.2.1.csproj" />
+    <ProjectReference Include="..\..\..\INVENTWARE.ApplicationStructure.Core\IAS.Domain.Core.2.1\IAS.Domain.Core.2.1.csproj" />
+    <ProjectReference Include="..\Inventware.Data.Core.2.1\Inventware.Data.Core.2.1.csproj" />
+    <ProjectReference Include="..\Inventware.Domain.Core.2.1\Inventware.Domain.Core.2.1.csproj" />
+  </ItemGroup>
+
+</Project>

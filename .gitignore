@@ -1,0 +1,43 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# .NET Core Projetcs
+bin
+objects
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+_Docs/
+Inventware.Api/bin/
+Inventware.Api/obj/
+Inventware.Api/Properties/
+Inventware.Api/Publish/
+Inventware.Application.Core.2.1/bin/
+Inventware.Application.Core.2.1/obj/
+Inventware.CrossCutting.Infra.IoC.Core.2.1/bin/
+Inventware.CrossCutting.Infra.IoC.Core.2.1/obj/
+Inventware.Data.Core.2.1/bin/
+Inventware.Data.Core.2.1/obj/
+Inventware.Data.Core.2.1/Migrations/
+Inventware.Data.Identity/bin/
+Inventware.Data.Identity/obj/
+Inventware.Data.Identity/Migrations/
+Inventware.Domain.Core.2.1/bin/
+Inventware.Domain.Core.2.1/obj/
+Inventware.UI/e2e/
+Inventware.UI/node_modules/
+packages/
+
+# IDEs and editors
+.vs
+.vscode
+.suo
+*.mpp
+*.xlsx
+readme.md
+# System Files
+.DS_Store
+Thumbs.db
